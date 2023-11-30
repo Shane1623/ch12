@@ -1,0 +1,12 @@
+public class DoubleToString {
+    public static void main(String[] args) {
+        double doubleValue = 67.834;
+
+        // Convert double to string
+        String stringValue = String.valueOf(doubleValue);
+
+        // Print the string and its length
+        System.out.println("String representation: " + stringValue);
+        System.out.println("Length of the string: " + stringValue.length());
+    }
+}
