@@ -1,0 +1,11 @@
+
+// File: pack12_9/MyMath.java
+package pack12_9.sub2;
+
+public abstract class MyMath {
+    public abstract int add(int a, int b);
+    public abstract int sub(int a, int b);
+    public abstract int mul(int a, int b);
+    public abstract int div(int a, int b);
+}
+
