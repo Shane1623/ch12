@@ -1,0 +1,10 @@
+public class SubstringExample {
+    public static void main(String[] args) {
+        String originalString = "Two heads are better than one";
+        
+        // 使用 substring 函數取得 "better" 子字串
+        String subString = originalString.substring(14, 21);
+        
+        System.out.println(subString);
+    }
+}
