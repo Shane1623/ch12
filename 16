@@ -1,0 +1,13 @@
+public class StringToIntExample {
+    public static void main(String[] args) {
+        // Convert the string to an int
+        String strNumber = "262904713";
+        int intValue = Integer.parseInt(strNumber);
+
+        // Calculate 2 times the converted int value
+        int result = intValue * 2;
+
+        // Print the result
+        System.out.println("Result of 2 times " + strNumber + ": " + result);
+    }
+}
