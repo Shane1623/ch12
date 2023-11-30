@@ -1,0 +1,10 @@
+public class SubstringExample {
+    public static void main(String[] args) {
+        String originalString = "Habit is second nature.";
+        
+        // Extracting the substring "nature"
+        String natureSubstring = originalString.substring(16, 23);
+
+        System.out.println(natureSubstring);
+    }
+}
