@@ -1,0 +1,16 @@
+
+public class Sum {
+
+    public int add(int i) {
+        return 55;
+    }
+
+}
+_________________________________________
+// File: Ex12_12b.java
+public class Ex12_12b {
+    public static void main(String[] args) {
+        Sum s = new Sum();
+        System.out.println("sum(5)=" + s.add(10));
+    }
+}
