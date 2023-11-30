@@ -1,0 +1,39 @@
+// File: pack12_9/sub2/Compute.java
+package pack12_9.sub2;
+
+public class Compute extends MyMath {
+    private int ans;
+
+    public void show() {
+        System.out.println("Result: " + ans);
+    }
+
+    @Override
+    public int add(int a, int b) {
+        ans = a + b;
+        return ans;
+    }
+
+    @Override
+    public int sub(int a, int b) {
+        ans = a - b;
+        return ans;
+    }
+
+    @Override
+    public int mul(int a, int b) {
+        ans = a * b;
+        return ans;
+    }
+
+    @Override
+    public int div(int a, int b) {
+        if (b != 0) {
+            ans = a / b;
+        } else {
+            System.out.println("Cannot divide by zero.");
+            ans = 0;
+        }
+        return ans;
+    }
+}
